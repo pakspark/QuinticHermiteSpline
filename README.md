@@ -1,5 +1,5 @@
 # QuinticHermiteSpline
-Quintic (not cubic) Hermite spline that adds acceleration control on endpoints.
+Quintic Hermite spline that adds acceleration control on endpoints.
 
 # Why?
 Usually you use [cubic Hermite spline](https://en.wikipedia.org/wiki/Cubic_Hermite_spline) when you want to interpolate between two points, but you can only specify position and velocity per point. Quintic interpolation allows you to set acceleration at both points. It gives more control and is kinda intuitive to use.
